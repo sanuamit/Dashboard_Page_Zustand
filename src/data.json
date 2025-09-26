@@ -1,0 +1,13 @@
+{
+  "widgets": {
+    "w1": { "id": "w1", "name": "Server Status", "text": "All systems nominal" },
+    "w2": { "id": "w2", "name": "Active Users", "text": "1,234 users online" },
+    "w3": { "id": "w3", "name": "Errors", "text": "5 critical errors" },
+    "w4": { "id": "w4", "name": "Sales", "text": "Today's revenue: $4,200" }
+  },
+  "categories": {
+    "cspm": { "id": "cspm", "name": "CSPM Executive", "widgetIds": ["w1", "w2"] },
+    "ops": { "id": "ops", "name": "Operations", "widgetIds": ["w3"] },
+    "finance": { "id": "finance", "name": "Finance", "widgetIds": ["w4"] }
+  }
+}
